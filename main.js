@@ -17,3 +17,14 @@ function alertMe(){
 	alert("Hey I told you not to hover over me!");
 	
 }
+
+
+function findRadius(){
+	var rd = document.getElementById("radius").value;
+
+	var rad = (4/3)*(3.14);
+	rad = rad *Math.pow(rd, 3);
+	rad = rad.toFixed(2);
+	alert("volume of a sphere with radius " + rd + " is: " + rad);
+
+}
